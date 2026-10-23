@@ -61,7 +61,7 @@ module tb_mult;
 
                 // Wait for two rising edges of pipeline latency
                 repeat (2) @(posedge clk);
-                #1;
+                #2;
 
                 checked = checked + 1;
 
