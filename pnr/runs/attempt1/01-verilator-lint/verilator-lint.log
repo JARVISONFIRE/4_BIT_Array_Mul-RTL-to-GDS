@@ -1,0 +1,17 @@
+%Warning-GENUNNAMED: /foss/designs/rtl_multiplier/rtl/mult_array.v:39:24: Unnamed generate block 'genblk1' (IEEE 1800-2023 27.6)
+                                                                        : ... Suggest assign a label with 'begin : gen_<label_name>'
+   39 |             if (k < 3) begin
+      |                        ^~~~~
+                     ... For warning description see https://verilator.org/warn/GENUNNAMED?v=5.052
+                     ... Use "/* verilator lint_off GENUNNAMED */" and lint_on around source to disable this message.
+%Warning-GENUNNAMED: /foss/designs/rtl_multiplier/rtl/mult_array.v:66:24: Unnamed generate block 'genblk1' (IEEE 1800-2023 27.6)
+                                                                        : ... Suggest assign a label with 'begin : gen_<label_name>'
+   66 |             if (k < 3) begin
+      |                        ^~~~~
+%Warning-GENUNNAMED: /foss/designs/rtl_multiplier/rtl/mult_array.v:93:24: Unnamed generate block 'genblk1' (IEEE 1800-2023 27.6)
+                                                                        : ... Suggest assign a label with 'begin : gen_<label_name>'
+   93 |             if (k < 3) begin
+      |                        ^~~~~
+- V e r i l a t i o n   R e p o r t: Verilator 5.052 2026-09-05 rev v5.052
+- Verilator: Built from 0.861 MB sources in 497 modules, into 0.031 MB in 3 C++ files needing 0.000 MB
+- Verilator: Walltime 0.038 s (elab=0.012, cvt=0.006, bld=0.000); cpu 0.037 s on 1 threads; allocated 32.719 MB

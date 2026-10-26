@@ -1,0 +1,1 @@
+openroad -exit -threads None -no_splash -metrics /foss/designs/rtl_multiplier/pnr/runs/attempt1/43-openroad-stamidpnr-3/or_metrics_out.json /usr/local/lib/python3.12/dist-packages/librelane/scripts/openroad/sta/corner.tcl

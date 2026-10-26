@@ -1,0 +1,1 @@
+yosys -y /usr/local/lib/python3.12/dist-packages/librelane/scripts/pyosys/synthesize.py -- --config-in /foss/designs/rtl_multiplier/pnr/runs/attempt1/06-yosys-synthesis/config.json --extra-in /foss/designs/rtl_multiplier/pnr/runs/attempt1/06-yosys-synthesis/extra.json --output /foss/designs/rtl_multiplier/pnr/runs/attempt1/06-yosys-synthesis/mult_array.nl.v

@@ -1,0 +1,1 @@
+ruby /usr/local/lib/python3.12/dist-packages/librelane/scripts/klayout/xor.drc --output /foss/designs/rtl_multiplier/pnr/runs/attempt1/62-klayout-xor/xor.xml --top mult_array --threads 12 --ignore 81/14 /foss/designs/rtl_multiplier/pnr/runs/attempt1/57-magic-streamout/mult_array.magic.gds /foss/designs/rtl_multiplier/pnr/runs/attempt1/58-klayout-streamout/mult_array.klayout.gds

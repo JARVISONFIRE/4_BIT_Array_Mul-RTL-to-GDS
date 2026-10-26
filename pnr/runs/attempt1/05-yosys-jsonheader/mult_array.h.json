@@ -1,0 +1,3269 @@
+{
+  "creator": "Yosys 0.70 (git sha1 28ba3cb92, Release, GNU /usr/bin/c++ 13.3.0)",
+  "modules": {
+    "mult_array": {
+      "attributes": {
+        "hdlname": "mult_array",
+        "top": "00000000000000000000000000000001",
+        "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:2.1-124.10"
+      },
+      "ports": {
+        "clk": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "rst_n": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "a": {
+          "direction": "input",
+          "bits": [ 4, 5, 6, 7 ]
+        },
+        "b": {
+          "direction": "input",
+          "bits": [ 8, 9, 10, 11 ]
+        },
+        "p": {
+          "direction": "output",
+          "bits": [ 12, 13, 14, 15, 16, 17, 18, 19 ]
+        }
+      },
+      "cells": {
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$10": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 9 ],
+            "Y": [ 20 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$11": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 10 ],
+            "Y": [ 21 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$12": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 10 ],
+            "Y": [ 22 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$13": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "B": [ 10 ],
+            "Y": [ 23 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$14": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 10 ],
+            "Y": [ 24 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$15": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 11 ],
+            "Y": [ 25 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$16": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 11 ],
+            "Y": [ 26 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$17": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "B": [ 11 ],
+            "Y": [ 27 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$18": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 11 ],
+            "Y": [ 28 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$3": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 8 ],
+            "Y": [ 29 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$4": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 8 ],
+            "Y": [ 30 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$5": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "B": [ 8 ],
+            "Y": [ 31 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$6": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 8 ],
+            "Y": [ 32 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$7": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 9 ],
+            "Y": [ 33 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$8": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 9 ],
+            "Y": [ 34 ]
+          }
+        },
+        "$and$/foss/designs/rtl_multiplier/rtl/mult_array.v:17$9": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:17.36-17.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "B": [ 9 ],
+            "Y": [ 35 ]
+          }
+        },
+        "$flatten\\ADD1[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 30 ],
+            "B": [ 33 ],
+            "Y": [ 36 ]
+          }
+        },
+        "$flatten\\ADD1[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 30 ],
+            "B": [ "0" ],
+            "Y": [ 37 ]
+          }
+        },
+        "$flatten\\ADD1[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 33 ],
+            "B": [ "0" ],
+            "Y": [ 38 ]
+          }
+        },
+        "$flatten\\ADD1[0].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 36 ],
+            "B": [ 37 ],
+            "Y": [ 39 ]
+          }
+        },
+        "$flatten\\ADD1[0].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 39 ],
+            "B": [ 38 ],
+            "Y": [ 40 ]
+          }
+        },
+        "$flatten\\ADD1[0].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 30 ],
+            "B": [ 33 ],
+            "Y": [ 41 ]
+          }
+        },
+        "$flatten\\ADD1[0].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 41 ],
+            "B": [ "0" ],
+            "Y": [ 42 ]
+          }
+        },
+        "$flatten\\ADD1[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 31 ],
+            "B": [ 34 ],
+            "Y": [ 43 ]
+          }
+        },
+        "$flatten\\ADD1[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 31 ],
+            "B": [ 40 ],
+            "Y": [ 44 ]
+          }
+        },
+        "$flatten\\ADD1[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 34 ],
+            "B": [ 40 ],
+            "Y": [ 45 ]
+          }
+        },
+        "$flatten\\ADD1[1].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 43 ],
+            "B": [ 44 ],
+            "Y": [ 46 ]
+          }
+        },
+        "$flatten\\ADD1[1].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 46 ],
+            "B": [ 45 ],
+            "Y": [ 47 ]
+          }
+        },
+        "$flatten\\ADD1[1].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 31 ],
+            "B": [ 34 ],
+            "Y": [ 48 ]
+          }
+        },
+        "$flatten\\ADD1[1].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 48 ],
+            "B": [ 40 ],
+            "Y": [ 49 ]
+          }
+        },
+        "$flatten\\ADD1[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 32 ],
+            "B": [ 35 ],
+            "Y": [ 50 ]
+          }
+        },
+        "$flatten\\ADD1[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 32 ],
+            "B": [ 47 ],
+            "Y": [ 51 ]
+          }
+        },
+        "$flatten\\ADD1[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 35 ],
+            "B": [ 47 ],
+            "Y": [ 52 ]
+          }
+        },
+        "$flatten\\ADD1[2].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 50 ],
+            "B": [ 51 ],
+            "Y": [ 53 ]
+          }
+        },
+        "$flatten\\ADD1[2].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 53 ],
+            "B": [ 52 ],
+            "Y": [ 54 ]
+          }
+        },
+        "$flatten\\ADD1[2].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 32 ],
+            "B": [ 35 ],
+            "Y": [ 55 ]
+          }
+        },
+        "$flatten\\ADD1[2].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 55 ],
+            "B": [ 47 ],
+            "Y": [ 56 ]
+          }
+        },
+        "$flatten\\ADD1[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 20 ],
+            "Y": [ 57 ]
+          }
+        },
+        "$flatten\\ADD1[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 54 ],
+            "Y": [ 58 ]
+          }
+        },
+        "$flatten\\ADD1[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 20 ],
+            "B": [ 54 ],
+            "Y": [ 59 ]
+          }
+        },
+        "$flatten\\ADD1[3].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 57 ],
+            "B": [ 58 ],
+            "Y": [ 60 ]
+          }
+        },
+        "$flatten\\ADD1[3].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 60 ],
+            "B": [ 59 ],
+            "Y": [ 61 ]
+          }
+        },
+        "$flatten\\ADD1[3].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 20 ],
+            "Y": [ 62 ]
+          }
+        },
+        "$flatten\\ADD1[3].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 62 ],
+            "B": [ 54 ],
+            "Y": [ 63 ]
+          }
+        },
+        "$flatten\\ADD2[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 49 ],
+            "B": [ 21 ],
+            "Y": [ 64 ]
+          }
+        },
+        "$flatten\\ADD2[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 49 ],
+            "B": [ "0" ],
+            "Y": [ 65 ]
+          }
+        },
+        "$flatten\\ADD2[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 21 ],
+            "B": [ "0" ],
+            "Y": [ 66 ]
+          }
+        },
+        "$flatten\\ADD2[0].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 64 ],
+            "B": [ 65 ],
+            "Y": [ 67 ]
+          }
+        },
+        "$flatten\\ADD2[0].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 67 ],
+            "B": [ 66 ],
+            "Y": [ 68 ]
+          }
+        },
+        "$flatten\\ADD2[0].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 49 ],
+            "B": [ 21 ],
+            "Y": [ 69 ]
+          }
+        },
+        "$flatten\\ADD2[0].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 69 ],
+            "B": [ "0" ],
+            "Y": [ 70 ]
+          }
+        },
+        "$flatten\\ADD2[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 56 ],
+            "B": [ 22 ],
+            "Y": [ 71 ]
+          }
+        },
+        "$flatten\\ADD2[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 56 ],
+            "B": [ 68 ],
+            "Y": [ 72 ]
+          }
+        },
+        "$flatten\\ADD2[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 22 ],
+            "B": [ 68 ],
+            "Y": [ 73 ]
+          }
+        },
+        "$flatten\\ADD2[1].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 71 ],
+            "B": [ 72 ],
+            "Y": [ 74 ]
+          }
+        },
+        "$flatten\\ADD2[1].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 74 ],
+            "B": [ 73 ],
+            "Y": [ 75 ]
+          }
+        },
+        "$flatten\\ADD2[1].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 56 ],
+            "B": [ 22 ],
+            "Y": [ 76 ]
+          }
+        },
+        "$flatten\\ADD2[1].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 76 ],
+            "B": [ 68 ],
+            "Y": [ 77 ]
+          }
+        },
+        "$flatten\\ADD2[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 63 ],
+            "B": [ 23 ],
+            "Y": [ 78 ]
+          }
+        },
+        "$flatten\\ADD2[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 63 ],
+            "B": [ 75 ],
+            "Y": [ 79 ]
+          }
+        },
+        "$flatten\\ADD2[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 23 ],
+            "B": [ 75 ],
+            "Y": [ 80 ]
+          }
+        },
+        "$flatten\\ADD2[2].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 78 ],
+            "B": [ 79 ],
+            "Y": [ 81 ]
+          }
+        },
+        "$flatten\\ADD2[2].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 81 ],
+            "B": [ 80 ],
+            "Y": [ 82 ]
+          }
+        },
+        "$flatten\\ADD2[2].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 63 ],
+            "B": [ 23 ],
+            "Y": [ 83 ]
+          }
+        },
+        "$flatten\\ADD2[2].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 83 ],
+            "B": [ 75 ],
+            "Y": [ 84 ]
+          }
+        },
+        "$flatten\\ADD2[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 61 ],
+            "B": [ 24 ],
+            "Y": [ 85 ]
+          }
+        },
+        "$flatten\\ADD2[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 61 ],
+            "B": [ 82 ],
+            "Y": [ 86 ]
+          }
+        },
+        "$flatten\\ADD2[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 24 ],
+            "B": [ 82 ],
+            "Y": [ 87 ]
+          }
+        },
+        "$flatten\\ADD2[3].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 85 ],
+            "B": [ 86 ],
+            "Y": [ 88 ]
+          }
+        },
+        "$flatten\\ADD2[3].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 88 ],
+            "B": [ 87 ],
+            "Y": [ 89 ]
+          }
+        },
+        "$flatten\\ADD2[3].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 61 ],
+            "B": [ 24 ],
+            "Y": [ 90 ]
+          }
+        },
+        "$flatten\\ADD2[3].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 90 ],
+            "B": [ 82 ],
+            "Y": [ 91 ]
+          }
+        },
+        "$flatten\\ADD3[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 77 ],
+            "B": [ 25 ],
+            "Y": [ 92 ]
+          }
+        },
+        "$flatten\\ADD3[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 77 ],
+            "B": [ "0" ],
+            "Y": [ 93 ]
+          }
+        },
+        "$flatten\\ADD3[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 25 ],
+            "B": [ "0" ],
+            "Y": [ 94 ]
+          }
+        },
+        "$flatten\\ADD3[0].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 92 ],
+            "B": [ 93 ],
+            "Y": [ 95 ]
+          }
+        },
+        "$flatten\\ADD3[0].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 95 ],
+            "B": [ 94 ],
+            "Y": [ 96 ]
+          }
+        },
+        "$flatten\\ADD3[0].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 77 ],
+            "B": [ 25 ],
+            "Y": [ 97 ]
+          }
+        },
+        "$flatten\\ADD3[0].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 97 ],
+            "B": [ "0" ],
+            "Y": [ 98 ]
+          }
+        },
+        "$flatten\\ADD3[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 84 ],
+            "B": [ 26 ],
+            "Y": [ 99 ]
+          }
+        },
+        "$flatten\\ADD3[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 84 ],
+            "B": [ 96 ],
+            "Y": [ 100 ]
+          }
+        },
+        "$flatten\\ADD3[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 26 ],
+            "B": [ 96 ],
+            "Y": [ 101 ]
+          }
+        },
+        "$flatten\\ADD3[1].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 99 ],
+            "B": [ 100 ],
+            "Y": [ 102 ]
+          }
+        },
+        "$flatten\\ADD3[1].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 102 ],
+            "B": [ 101 ],
+            "Y": [ 103 ]
+          }
+        },
+        "$flatten\\ADD3[1].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 84 ],
+            "B": [ 26 ],
+            "Y": [ 104 ]
+          }
+        },
+        "$flatten\\ADD3[1].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 104 ],
+            "B": [ 96 ],
+            "Y": [ 105 ]
+          }
+        },
+        "$flatten\\ADD3[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 91 ],
+            "B": [ 27 ],
+            "Y": [ 106 ]
+          }
+        },
+        "$flatten\\ADD3[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 91 ],
+            "B": [ 103 ],
+            "Y": [ 107 ]
+          }
+        },
+        "$flatten\\ADD3[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 27 ],
+            "B": [ 103 ],
+            "Y": [ 108 ]
+          }
+        },
+        "$flatten\\ADD3[2].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 106 ],
+            "B": [ 107 ],
+            "Y": [ 109 ]
+          }
+        },
+        "$flatten\\ADD3[2].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 109 ],
+            "B": [ 108 ],
+            "Y": [ 110 ]
+          }
+        },
+        "$flatten\\ADD3[2].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 91 ],
+            "B": [ 27 ],
+            "Y": [ 111 ]
+          }
+        },
+        "$flatten\\ADD3[2].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 111 ],
+            "B": [ 103 ],
+            "Y": [ 112 ]
+          }
+        },
+        "$flatten\\ADD3[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 89 ],
+            "B": [ 28 ],
+            "Y": [ 113 ]
+          }
+        },
+        "$flatten\\ADD3[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 89 ],
+            "B": [ 110 ],
+            "Y": [ 114 ]
+          }
+        },
+        "$flatten\\ADD3[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 28 ],
+            "B": [ 110 ],
+            "Y": [ 115 ]
+          }
+        },
+        "$flatten\\ADD3[3].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 113 ],
+            "B": [ 114 ],
+            "Y": [ 116 ]
+          }
+        },
+        "$flatten\\ADD3[3].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.50"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 116 ],
+            "B": [ 115 ],
+            "Y": [ 117 ]
+          }
+        },
+        "$flatten\\ADD3[3].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 89 ],
+            "B": [ 28 ],
+            "Y": [ 118 ]
+          }
+        },
+        "$flatten\\ADD3[3].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$20": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 118 ],
+            "B": [ 110 ],
+            "Y": [ 119 ]
+          }
+        },
+        "$procdff$30": {
+          "hide_name": 1,
+          "type": "$adff",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000000",
+            "ARST_VALUE": "00000000",
+            "CLK_POLARITY": "1",
+            "WIDTH": "00000000000000000000000000001000"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:114.5-122.8"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 120, 121, 122, 123, 124, 125, 126, 127 ],
+            "Q": [ 12, 13, 14, 15, 16, 17, 18, 19 ]
+          }
+        },
+        "$procdff$35": {
+          "hide_name": 1,
+          "type": "$adff",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000000",
+            "ARST_VALUE": "00000000",
+            "CLK_POLARITY": "1",
+            "WIDTH": "00000000000000000000000000001000"
+          },
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:114.5-122.8"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 29, 42, 70, 98, 105, 112, 119, 117 ],
+            "Q": [ 120, 121, 122, 123, 124, 125, 126, 127 ]
+          }
+        }
+      },
+      "netnames": {
+        "$flatten\\ADD1[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 36 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD1[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 37 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD1[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 38 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD1[0].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 39 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD1[0].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 41 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "$flatten\\ADD1[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 43 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD1[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 44 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD1[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 45 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD1[1].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 46 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD1[1].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 48 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "$flatten\\ADD1[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 50 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD1[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 51 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD1[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 52 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD1[2].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 53 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD1[2].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 55 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "$flatten\\ADD1[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 57 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD1[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 58 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD1[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 59 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD1[3].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 60 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD1[3].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 62 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "$flatten\\ADD2[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 64 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD2[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 65 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD2[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 66 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD2[0].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 67 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD2[0].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 69 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "$flatten\\ADD2[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 71 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD2[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 72 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD2[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 73 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD2[1].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 74 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD2[1].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 76 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "$flatten\\ADD2[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 78 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD2[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 79 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD2[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 80 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD2[2].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 81 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD2[2].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 83 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "$flatten\\ADD2[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 85 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD2[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 86 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD2[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 87 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD2[3].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 88 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD2[3].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 90 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "$flatten\\ADD3[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 92 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD3[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 93 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD3[0].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 94 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD3[0].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 95 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD3[0].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 97 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "$flatten\\ADD3[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 99 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD3[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 100 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD3[1].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 101 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD3[1].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 102 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD3[1].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 104 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "$flatten\\ADD3[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 106 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD3[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 107 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD3[2].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 108 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD3[2].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 109 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD3[2].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 111 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "$flatten\\ADD3[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$21_Y": {
+          "hide_name": 1,
+          "bits": [ 113 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.20-11.25"
+          }
+        },
+        "$flatten\\ADD3[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$22_Y": {
+          "hide_name": 1,
+          "bits": [ 114 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.30-11.37"
+          }
+        },
+        "$flatten\\ADD3[3].fa.$and$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$24_Y": {
+          "hide_name": 1,
+          "bits": [ 115 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.42-11.49"
+          }
+        },
+        "$flatten\\ADD3[3].fa.$or$/foss/designs/rtl_multiplier/rtl/full_adder.v:11$23_Y": {
+          "hide_name": 1,
+          "bits": [ 116 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:11.19-11.38"
+          }
+        },
+        "$flatten\\ADD3[3].fa.$xor$/foss/designs/rtl_multiplier/rtl/full_adder.v:10$19_Y": {
+          "hide_name": 1,
+          "bits": [ 118 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:10.19-10.24"
+          }
+        },
+        "ADD1[0].fa.a": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "attributes": {
+            "hdlname": "ADD1[0].fa a",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:3.17-3.18"
+          }
+        },
+        "ADD1[0].fa.b": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "attributes": {
+            "hdlname": "ADD1[0].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD1[0].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "attributes": {
+            "hdlname": "ADD1[0].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD1[0].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "attributes": {
+            "hdlname": "ADD1[0].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "ADD1[1].fa.a": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "attributes": {
+            "hdlname": "ADD1[1].fa a",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:3.17-3.18"
+          }
+        },
+        "ADD1[1].fa.b": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "hdlname": "ADD1[1].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD1[1].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 47 ],
+          "attributes": {
+            "hdlname": "ADD1[1].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD1[1].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 49 ],
+          "attributes": {
+            "hdlname": "ADD1[1].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "ADD1[2].fa.a": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "attributes": {
+            "hdlname": "ADD1[2].fa a",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:3.17-3.18"
+          }
+        },
+        "ADD1[2].fa.b": {
+          "hide_name": 0,
+          "bits": [ 35 ],
+          "attributes": {
+            "hdlname": "ADD1[2].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD1[2].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 54 ],
+          "attributes": {
+            "hdlname": "ADD1[2].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD1[2].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+            "hdlname": "ADD1[2].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "ADD1[3].fa.b": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "hdlname": "ADD1[3].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD1[3].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 61 ],
+          "attributes": {
+            "hdlname": "ADD1[3].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD1[3].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 63 ],
+          "attributes": {
+            "hdlname": "ADD1[3].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "ADD2[0].fa.b": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "hdlname": "ADD2[0].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD2[0].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 68 ],
+          "attributes": {
+            "hdlname": "ADD2[0].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD2[0].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 70 ],
+          "attributes": {
+            "hdlname": "ADD2[0].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "ADD2[1].fa.b": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "hdlname": "ADD2[1].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD2[1].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 75 ],
+          "attributes": {
+            "hdlname": "ADD2[1].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD2[1].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 77 ],
+          "attributes": {
+            "hdlname": "ADD2[1].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "ADD2[2].fa.b": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "attributes": {
+            "hdlname": "ADD2[2].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD2[2].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 82 ],
+          "attributes": {
+            "hdlname": "ADD2[2].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD2[2].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 84 ],
+          "attributes": {
+            "hdlname": "ADD2[2].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "ADD2[3].fa.b": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "attributes": {
+            "hdlname": "ADD2[3].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD2[3].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 89 ],
+          "attributes": {
+            "hdlname": "ADD2[3].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD2[3].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 91 ],
+          "attributes": {
+            "hdlname": "ADD2[3].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "ADD3[0].fa.b": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "attributes": {
+            "hdlname": "ADD3[0].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD3[0].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 96 ],
+          "attributes": {
+            "hdlname": "ADD3[0].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD3[0].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 98 ],
+          "attributes": {
+            "hdlname": "ADD3[0].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "ADD3[1].fa.b": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "attributes": {
+            "hdlname": "ADD3[1].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD3[1].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 103 ],
+          "attributes": {
+            "hdlname": "ADD3[1].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD3[1].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 105 ],
+          "attributes": {
+            "hdlname": "ADD3[1].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "ADD3[2].fa.b": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "attributes": {
+            "hdlname": "ADD3[2].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD3[2].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 110 ],
+          "attributes": {
+            "hdlname": "ADD3[2].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD3[2].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 112 ],
+          "attributes": {
+            "hdlname": "ADD3[2].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "ADD3[3].fa.b": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "attributes": {
+            "hdlname": "ADD3[3].fa b",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:4.17-4.18"
+          }
+        },
+        "ADD3[3].fa.cout": {
+          "hide_name": 0,
+          "bits": [ 117 ],
+          "attributes": {
+            "hdlname": "ADD3[3].fa cout",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:7.17-7.21"
+          }
+        },
+        "ADD3[3].fa.sum": {
+          "hide_name": 0,
+          "bits": [ 119 ],
+          "attributes": {
+            "hdlname": "ADD3[3].fa sum",
+            "src": "/foss/designs/rtl_multiplier/rtl/full_adder.v:6.17-6.20"
+          }
+        },
+        "a": {
+          "hide_name": 0,
+          "bits": [ 4, 5, 6, 7 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:5.23-5.24"
+          }
+        },
+        "b": {
+          "hide_name": 0,
+          "bits": [ 8, 9, 10, 11 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:6.23-6.24"
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:3.23-3.26"
+          }
+        },
+        "p": {
+          "hide_name": 0,
+          "bits": [ 12, 13, 14, 15, 16, 17, 18, 19 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:7.23-7.24"
+          }
+        },
+        "pp": {
+          "hide_name": 0,
+          "bits": [ 29, 30, 31, 32, 33, 34, 35, 20, 21, 22, 23, 24, 25, 26, 27, 28 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:10.17-10.19"
+          }
+        },
+        "product_stage1": {
+          "hide_name": 0,
+          "bits": [ 120, 121, 122, 123, 124, 125, 126, 127 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:112.15-112.29"
+          }
+        },
+        "rst_n": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/foss/designs/rtl_multiplier/rtl/mult_array.v:4.23-4.28"
+          }
+        }
+      }
+    }
+  }
+}

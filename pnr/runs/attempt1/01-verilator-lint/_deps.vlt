@@ -1,0 +1,7 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/foss/designs/rtl_multiplier/pnr/runs/attempt1/tmp/a4537333fa304762909d023e7f93462b.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/foss/designs/rtl_multiplier/pnr/runs/attempt1/tmp/a4537333fa304762909d023e7f93462b.bb.v"
+lint_off -rule UNDRIVEN -file "/foss/designs/rtl_multiplier/pnr/runs/attempt1/tmp/769e51a7d8e248709837efe956f42dcb.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/foss/designs/rtl_multiplier/pnr/runs/attempt1/tmp/769e51a7d8e248709837efe956f42dcb.bb.v"
